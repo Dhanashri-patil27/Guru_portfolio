@@ -1,0 +1,125 @@
+{
+  "intro":"Mechanical Design Engineer with 4.5+ years of hands-on experience in designing and commissioning industrial machines and automation systems across advanced manufacturing, CNC, robotics, and food automation.",
+
+  "skills": [
+  {
+    "category": "Mechanical Design",
+    "items": [
+      "Sheet Metal Design",
+      "Welded & Riveted Structures",
+      "Mechanism Design",
+      "GD&T & Tolerance Stack-up",
+      "Structural Design"
+    ]
+  },
+  {
+    "category": "Manufacturing & DFMA",
+    "items": [
+      "CNC Machining",
+      "Fabrication & Assembly",
+      "Design for Manufacturability (DFM / DFMA)",
+      "Vendor Coordination",
+      "Prototyping & Testing"
+    ]
+  },
+  {
+    "category": "Automation, Robotics & Motion",
+    "items": [
+      "XYZ Gantry Systems",
+      "Linear Motion Systems",
+      "Servo & Stepper Drives",
+      "Sensors & Actuators",
+      "Mechatronic Integration"
+    ]
+  },
+  {
+    "category": "Advanced Manufacturing",
+    "items": [
+      "Large-Format Additive Manufacturing (LFAM)",
+      "Hybrid Manufacturing Systems",
+      "Industrial 3D Printing",
+      "Process Optimization"
+    ]
+  },
+  {
+    "category": "CAD & Engineering Tools",
+    "items": [
+      "SolidWorks",
+      "Solid Edge",
+      "PTC Creo",
+      "Fusion 360",
+      "AutoCAD",
+      "3D Slicers"
+    ]
+  }
+  ],
+
+  "experience": [
+    {
+      "company": "Freshot Robotics",
+      "role": "Mechanical Design Engineer",
+      "duration": "April 2023 – April 2025 | Nov 2025 – Present",
+      "summary": "Contributed to the design and development of food automation systems including IdliBot and MultiBot. Engineered high-repeatability XYZ gantry systems and automated stirring mechanisms, working closely with cross-functional teams to ensure reliable and scalable machine performance."
+    },
+     {
+    "company": "Nosh Robotics Pvt. Ltd.",
+    "role": "Senior Mechanical Design Engineer",
+    "duration": "May 2025 – Oct 2025",
+    "summary":
+      "Optimized linear drive mechanisms for automated cooking systems and designed a riveted, weld-free sheet-metal chassis. Led mechanical integration to improve manufacturability, assembly accuracy, and overall system reliability."
+  },
+
+  {
+    "company": "Deltasys E-Forming Pvt. Ltd.",
+    "role": "Machine Design Engineer",
+    "duration": "2021 – 2023",
+    "summary":
+      "Designed and scaled large-format concrete 3D printing systems for construction applications. Developed CNC machines and handled end-to-end mechanical design, prototyping, and manufacturing support for additive manufacturing products."
+  }
+  ],
+
+  "education": [
+    {
+      "degree": "M.Tech (IAR)",
+      "institute": "Manipal Institute of Technology",
+      "year": "2022"
+    },
+    {
+      "degree": "B.E (Mechanical)",
+      "institute": "VTU",
+      "year": "2020"
+    }
+  ],
+
+  "achievements": [
+   "Presented Large-Format Additive Manufacturing (LFAM) systems at IMTEX 2023, showcasing industrial-scale 3D printing technology and machine design capabilities",
+  "Published research on additive manufacturing design optimization in Scientific Reports (Nature Portfolio), based on Master's thesis work conducted at Deltasys E-Forming Pvt. Ltd."
+  ],
+
+  "expertisePreview": [
+  "Large-Format Additive Manufacturing (LFAM)",
+  "Robotics & Industrial Automation",
+  "CNC & Hybrid Manufacturing Systems",
+  "End-to-End Product Development",
+  "Design for Manufacturability (DFMA)"
+  ],
+
+  "publications": [
+    {    
+    "title": "Design Optimization in Additive Manufacturing Systems",
+    "journal": "Scientific Reports (Nature Portfolio)",
+    "description":
+      "Research focused on design optimization and performance improvement of large-scale additive manufacturing systems.",
+    "year": "2022",
+    "link": "https://www.nature.com/articles/s41598-025-02860-9"
+    }
+  ],
+
+  "contact": [
+    {
+      "email": "gururaj.mathapati@email.com",
+      "linkedin": "https://www.linkedin.com/in/gururaj-mathapati-43a087190",
+      "location": "India"
+    }
+  ]
+}

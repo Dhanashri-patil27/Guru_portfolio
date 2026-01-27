@@ -1,0 +1,114 @@
+[
+  {
+    "id": "P001",
+    "title": "Large Scale Concrete 3D Printer for Modular Construction",
+    "shortName": "Concrete 3D Printer",
+    "sector": "Construction Automation",
+    "technology": [
+      "Gantry Systems",
+      "Concrete Extrusion",
+      "Motion Control",
+      "Structural Design"
+    ],
+    "machineType": "Large Format Additive Manufacturing",
+    "description": "Design and development of a large-scale concrete 3D printer for modular construction and rapid infrastructure prototyping.",
+    "keyModules": [
+      "XYZ gantry structure",
+      "Concrete pumping and extrusion head",
+      "Nozzle height control",
+      "Control cabinet and motion synchronization",
+      "Bed leveling and calibration system"
+    ],
+    "engineeringChallenges": [
+      "Structural rigidity over long spans",
+      "Vibration control during extrusion",
+      "Consistent concrete flow rate",
+      "Dust and environmental protection"
+    ],
+    "yourRole": [
+      "Mechanical architecture design",
+      "Structural member sizing",
+      "Motion layout planning",
+      "Fabrication drawings",
+      "Assembly and commissioning"
+    ],
+    "outcomes": [
+      "Successfully demonstrated layer-by-layer concrete deposition",
+      "Validated modular frame scalability"
+    ],
+    "year": "2019–2021",
+    "status": "Prototype"
+  },
+
+  {
+    "id": "P002",
+    "title": "Special Purpose CNC Routers",
+    "shortName": "CNC Routers",
+    "sector": "Digital Manufacturing",
+    "technology": [
+      "Linear Motion",
+      "Spindles",
+      "Vacuum Beds",
+      "Motion Control"
+    ],
+    "machineType": "Subtractive Manufacturing",
+    "description": "Designed multiple CNC router platforms customized for different customer applications.",
+    "keyModules": [
+      "Rigid welded frames",
+      "Ball screw and linear guideways",
+      "Spindle selection and mounting",
+      "Dust extraction integration"
+    ],
+    "engineeringChallenges": [
+      "Accuracy vs cost optimization",
+      "Vibration damping",
+      "Thermal stability"
+    ],
+    "yourRole": [
+      "Machine layout design",
+      "Component selection",
+      "Vendor coordination",
+      "Prototype testing"
+    ],
+    "outcomes": [
+      "Delivered multiple functional machines",
+      "Improved reliability in field usage"
+    ],
+    "year": "2020–2023",
+    "status": "Production"
+  },
+
+  {
+    "id": "P003",
+    "title": "Plastic Filament Extrusion Line",
+    "shortName": "Filament Extrusion",
+    "sector": "Polymer Processing",
+    "technology": ["Extrusion", "Thermal Control", "Material Handling"],
+    "machineType": "Process Automation",
+    "description": "Designed a compact filament extrusion system for producing consistent diameter thermoplastic filament.",
+    "keyModules": [
+      "Screw extruder",
+      "Heating zones",
+      "Cooling bath",
+      "Diameter monitoring",
+      "Spooling mechanism"
+    ],
+    "engineeringChallenges": [
+      "Temperature uniformity",
+      "Diameter stability",
+      "Material flow consistency"
+    ],
+    "yourRole": [
+      "Mechanical design",
+      "Thermal layout",
+      "Line integration",
+      "Testing and calibration"
+    ],
+    "outcomes": [
+      "Stable filament output achieved",
+      "Reduced material wastage"
+    ],
+    "year": "2021",
+    "status": "Prototype"
+  }
+]
