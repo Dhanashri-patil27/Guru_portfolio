@@ -11,12 +11,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className="
-          min-h-screen
+          min-h-[100dvh]
           text-slate-100
           bg-gradient-to-br
           from-slate-900
           via-slate-950
           to-black
+          overflow-x-hidden
         "
       >
         {/* Scroll animation handler */}
