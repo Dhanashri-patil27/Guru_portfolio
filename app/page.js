@@ -25,7 +25,7 @@ export default async function HomePage() {
       {/* ================= HERO ================= */}
       <section className="relative overflow-hidden">
         <SectionBackground />
-          <div className="absolute inset-0 bg-black/30 md:bg-transparent -z-10"> 
+        <div className="relative z-10 max-w-6xl mx-auto px-6 py-28">
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-3">
             Gururaj Mathapati
           </h1>

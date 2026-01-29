@@ -2,10 +2,9 @@ import SectionBackground from "../components/SectionBackground";
 import about from "../data/about.json";
 
 async function getAbout() {
-  return {
-    about
-  };
+  return { about };
 }
+
 export default async function AboutPage() {
   const { about } = await getAbout();
 
@@ -13,10 +12,10 @@ export default async function AboutPage() {
     <main className="text-white">
 
       {/* ================= INTRO ================= */}
-      <section className="relative mb-24 overflow-hidden">
+      <section className="relative overflow-hidden py-28">
         <SectionBackground />
 
-        <div className="relative z-10 max-w-6xl mx-auto px-6 py-28">
+        <div className="relative z-10 max-w-6xl mx-auto px-6">
           <h1 className="text-4xl font-bold mb-6">About</h1>
           <p className="text-slate-300 max-w-3xl leading-relaxed">
             {about.intro}
@@ -25,10 +24,10 @@ export default async function AboutPage() {
       </section>
 
       {/* ================= SKILLS ================= */}
-      <section className="relative mb-32 overflow-hidden">
+      <section className="relative overflow-hidden py-28">
         <SectionBackground />
 
-        <div className="relative z-10 max-w-6xl mx-auto px-6 py-28">
+        <div className="relative z-10 max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold mb-12">
             Skills & Expertise
           </h2>
@@ -60,12 +59,10 @@ export default async function AboutPage() {
       </section>
 
       {/* ================= EXPERIENCE ================= */}
-      <section className="relative mb-40">
-        <div className="absolute inset-0 overflow-hidden">
-          <SectionBackground />
-        </div>
+      <section className="relative overflow-hidden py-28">
+        <SectionBackground />
 
-        <div className="relative z-10 max-w-6xl mx-auto px-6 py-28">
+        <div className="relative z-10 max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold mb-20">
             Experience
           </h2>
@@ -118,10 +115,10 @@ export default async function AboutPage() {
       </section>
 
       {/* ================= EDUCATION ================= */}
-      <section className="relative mb-32 overflow-hidden">
+      <section className="relative overflow-hidden py-28">
         <SectionBackground />
 
-        <div className="relative z-10 max-w-6xl mx-auto px-6 py-28">
+        <div className="relative z-10 max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold mb-10">
             Education
           </h2>
@@ -145,10 +142,10 @@ export default async function AboutPage() {
       </section>
 
       {/* ================= ACHIEVEMENTS ================= */}
-      <section className="relative mb-32 overflow-hidden">
+      <section className="relative overflow-hidden py-28">
         <SectionBackground />
 
-        <div className="relative z-10 max-w-6xl mx-auto px-6 py-28">
+        <div className="relative z-10 max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold mb-8">
             Achievements & Awards
           </h2>
@@ -157,8 +154,6 @@ export default async function AboutPage() {
             {about.achievements?.map((a, i) => (
               <li key={i}>
                 {a}
-
-                {/* Attach paper link only to publication-related achievement */}
                 {a.toLowerCase().includes("published research") &&
                   about.publications?.[0]?.link && (
                     <a
@@ -182,55 +177,56 @@ export default async function AboutPage() {
         const contact = about.contact[0];
 
         return (
-         <section className="relative overflow-hidden border-t border-slate-700/50">
-                   <SectionBackground />
-         
-                   <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 text-center">
-                     <h2 className="text-3xl font-bold mb-4">
-                       Let’s Work Together
-                     </h2>
-         
-                     <p className="text-slate-400 max-w-2xl mx-auto mb-10">
-                       Interested in advanced manufacturing, robotics, automation,
-                       or product development collaborations? Feel free to reach out.
-                     </p>
-         
-                     <div className="flex flex-col sm:flex-row justify-center gap-6">
-                       {contact.email && (
-                         <a
-                           href={`https://mail.google.com/mail/?view=cm&fs=1&to=${contact.email}`}
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           className="bg-sky-500 hover:bg-sky-400
-                                      text-slate-900 font-semibold
-                                      px-6 py-3 rounded-lg transition"
-                         >
-                           Email Me
-                         </a>
-                       )}
-         
-                       {contact.linkedin && (
-                         <a
-                           href={contact.linkedin}
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           className="border border-slate-700 hover:border-sky-400
-                                      px-6 py-3 rounded-lg transition"
-                         >
-                           LinkedIn
-                         </a>
-                       )}
-                     </div>
-         
-                     {contact.location && (
-                       <p className="text-slate-500 text-sm mt-10">
-                         Based in {contact.location}
-                       </p>
-                     )}
-                   </div>
-                 </section>
+          <section className="relative overflow-hidden py-28 border-t border-slate-700/50">
+            <SectionBackground />
+
+            <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
+              <h2 className="text-3xl font-bold mb-4">
+                Let’s Work Together
+              </h2>
+
+              <p className="text-slate-400 max-w-2xl mx-auto mb-10">
+                Interested in advanced manufacturing, robotics, automation,
+                or product development collaborations? Feel free to reach out.
+              </p>
+
+              <div className="flex flex-col sm:flex-row justify-center gap-6">
+                {contact.email && (
+                  <a
+                    href={`https://mail.google.com/mail/?view=cm&fs=1&to=${contact.email}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-sky-500 hover:bg-sky-400
+                               text-slate-900 font-semibold
+                               px-6 py-3 rounded-lg transition"
+                  >
+                    Email Me
+                  </a>
+                )}
+
+                {contact.linkedin && (
+                  <a
+                    href={contact.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border border-slate-700 hover:border-sky-400
+                               px-6 py-3 rounded-lg transition"
+                  >
+                    LinkedIn
+                  </a>
+                )}
+              </div>
+
+              {contact.location && (
+                <p className="text-slate-500 text-sm mt-10">
+                  Based in {contact.location}
+                </p>
+              )}
+            </div>
+          </section>
         );
       })()}
+
     </main>
   );
 }
