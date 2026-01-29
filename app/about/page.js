@@ -36,10 +36,19 @@ export default async function AboutPage() {
             {about.skills?.map((skill, i) => (
               <div
                 key={i}
-                className="border border-slate-800 rounded-xl p-6
-                           bg-slate-900/50 backdrop-blur
-                           hover:border-sky-400 transition-all"
-              >
+                className="group relative
+                           border border-slate-800 rounded-xl p-6
+                           bg-slate-900/60 backdrop-blur
+                           transition-all duration-300
+                           hover:border-sky-400
+                           hover:-translate-y-1
+                           hover:shadow-xl hover:shadow-sky-500/10"
+              > <div
+                  className="absolute inset-0 rounded-xl opacity-0
+                             group-hover:opacity-100 transition
+                             bg-gradient-to-br from-sky-500/10 to-transparent
+                             pointer-events-none"
+                />
                 <h3 className="text-xl font-semibold mb-4">
                   {skill.category}
                 </h3>
@@ -80,10 +89,19 @@ export default async function AboutPage() {
                     className={`flex flex-col items-center text-center
                       ${isTop ? "md:-translate-y-12" : "md:translate-y-12"}`}
                   >
-                    <div className="bg-slate-900/70 backdrop-blur
-                                    border border-slate-800 rounded-xl
-                                    px-6 py-6 max-w-sm text-left
-                                    hover:border-sky-400 transition-all">
+                    <div className="group relative
+                           border border-slate-800 rounded-xl p-6
+                           bg-slate-900/60 backdrop-blur
+                           transition-all duration-300
+                           hover:border-sky-400
+                           hover:-translate-y-1
+                           hover:shadow-xl hover:shadow-sky-500/10">
+                            <div
+                  className="absolute inset-0 rounded-xl opacity-0
+                             group-hover:opacity-100 transition
+                             bg-gradient-to-br from-sky-500/10 to-transparent
+                             pointer-events-none"
+                />
                       <h3 className="text-lg font-semibold">
                         {exp.company}
                       </h3>
